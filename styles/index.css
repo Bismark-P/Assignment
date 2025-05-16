@@ -4,7 +4,7 @@
 }
 
 nav {
-    background-color: transparent;
+    /* background-color: transparent; */
     display: flex;
     background-color: #edf055;
     justify-content: space-around;
@@ -101,6 +101,7 @@ nav {
 .text4 {
     margin-top: 20px;
      width: 100%;
+     margin-bottom: 10px;
     
 }
 
@@ -194,3 +195,18 @@ font-size: 50px;
 .zoom-image:hover {
     transform: scale(1.15);
 }
+
+.fn {
+    font-weight: bold;
+}
+
+footer {
+    /* margin-top: 2px; */
+    /* align-content: center; */
+    background-color: #000000;
+    color: #edf055;
+    text-align: center;
+    padding: 20px;
+    /* display: flex; */
+}
+
