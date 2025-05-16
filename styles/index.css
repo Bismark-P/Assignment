@@ -1,7 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 nav {
     background-color: transparent;
     display: flex;
-    background-color: #ee0579;
+    background-color: #edf055;
     justify-content: space-around;
     align-items: center;
     height: 40px;
@@ -11,27 +16,181 @@ nav {
 }
 
 .navitems {
+    text-decoration: none;
     display: flex;
     gap: 50px;
     justify-content: space-between;
+
     /* font-weight: bold; */
 }
 
 .text-white {
-    color: white;
-}
-.ct {
-    text-align: center;
-    align-items: center;
-    margin-top: 0; 
+    color: rgb(0, 0, 0);
+     text-decoration: none;
 }
 
 .ct {
-    background-image: url(../Images/laptop-6966045_1920.jpg);
+    text-align: center;
+    align-items: center;
+    margin-top: 0;
+    color: white;
+    line-height: 0.2;
+}
+
+.btn {
+    /* margin-right: 50px; */
+    /* padding-right: 50px;
+    margin-top: 20px; */
+    /* background-color: #edf055; */
+    /* background-color: red; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.imageContainer img{
+    width: auto;
+    margin-right: 30px;
+    margin-top: 20px;
+    height: auto; 
+    transform: scale(1.1);
+
+}
+
+/* img {
+    width:auto;
+    height: auto;
+} */
+
+
+.container {
+    background-color: #edf055;
+    display: flex;
+    gap: 150px;
+    margin-top: 20px;
+    height: 50%;
+    /* margin-right: 20px; */
+    /* justify-items: space-around; */
+}
+
+.textcontainer {
+    text-align: justify;
+    /* justify-content: space-around; */
+    margin-left: 30px;
+    width: 50%;
+    height: auto
+}
+
+.text1 {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.text2 {
+   margin-top: 20px;
+    width: 100%;
+} 
+
+.text3 {
+    margin-top: 20px;
+     width: 100%;
+}
+
+.text4 {
+    margin-top: 20px;
+     width: 100%;
+    
+}
+
+.abouttext {
+font-size: 50px;
+}
+
+
+
+.textB {
+    /* border-radius: 30%; */
+    color: black;
+    /* margin-right: 200px; */
+    text-decoration: none;
+    background-color: #edf055;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: none;
+    /* gap: 100px; */
+
+}
+
+.nn {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.h {
+    font-size: 300%;
+}
+
+.rd {
+    font-size: large;
+    letter-spacing: 2px;
+    margin-top: 50px;
+}
+
+.s {
+    line-height: 0.1;
+    font-size: 130%;
+    Color: #edf055;
+    margin-top: 50px;
+
+}
+
+.cn {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.ct {
+    /* background-image: url(../Images/laptop-6966045_1920.jpg); */
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.815)), url(../Images/laptop-6966045_1920.jpg);
     height: 100vh;
     background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+}
+
+.image-container {
+    display: flex;
+    /* Flexbox for horizontal layout */
+    height: 44vh;
+    /* Fixed height - viewport */
+    /* overflow-x: auto;           Horizontal scrolling when needed */
+    /* overflow-y: auto;         No vertical scrolling -use auto */
+    width: 100%;
+    /* Full width of container */
+    /* scroll-snap-type: none; Optional: snap scrolling */
+    /* gap: 5px;                 Space between images */
+    /* padding: 0.5rem;         Padding so first/last images aren't flush */
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.track {
+    margin-left: 0%;
+    justify-content: space-between;
+}
+
+
+.zoom-image {
+    transition: transform 0.3s ease;
+    /* Smooth transition for the zoom effect */
+}
+
+.zoom-image:hover {
+    transform: scale(1.15);
 }
